@@ -1,9 +1,18 @@
-
-<html>
-  <head>
-    <title>github actions</title>
-  </head>
-  <body>
-    <div>hello github actions</div>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳转微信小程序</title>
+    <script>
+        function jumpToWechat() {
+            window.location.href = 'weixin://dl/business/?appid=wxb7718fb9257e4fd2&path=packageActiviy/flowVerify/shopJobPage/index&env_version=trial';
+        }
+    </script>
+</head>
+<body>
+    <button onclick="jumpToWechat()">跳转到体验版微信小程序</button>
+</body>
 </html>
+
+
